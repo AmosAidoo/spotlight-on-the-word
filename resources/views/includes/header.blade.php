@@ -26,22 +26,13 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" id="articlesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Articles</a>
+                    <a href="#" class="nav-link dropdown-toggle" id="resourcesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
                     <div class="dropdown-menu bg-primary" aria-labelledby="articlesDropdown">
                         <a class="dropdown-item" href="#">Apologetics</a>
                         <a class="dropdown-item" href="#">Doctrinal Matters</a>
                         <a class="dropdown-item" href="#">Sermons</a>
                         <a class="dropdown-item" href="#">Tracts</a>
                         <a class="dropdown-item" href="#">World Religions</a>
-                    </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" id="resourcesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
-                    <div class="dropdown-menu bg-primary" aria-labelledby="resourcesDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>
 
