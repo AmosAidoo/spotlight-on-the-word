@@ -10,7 +10,15 @@
 
     <!--Main body-->
     <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h3 class="display-4">Have any Questions?</h3>
+            </div>
 
+            <div class="col-md-5">
+
+            </div>
+        </div>
     </div>
 @endsection
 

@@ -14,6 +14,7 @@
 Route::get('/', 'PagesController@homepage');
 Route::get('/about', 'PagesController@about');
 Route::get('/contact', 'PagesController@contact');
+Route::get('/resources/apologetics', 'PagesController@apologetics');
 
 
 Route::group(['prefix' => 'admin'], function () {

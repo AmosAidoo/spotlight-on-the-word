@@ -142,13 +142,17 @@ body {
     box-shadow: 0.5px 1px 9px 1px #f1f1f1;
 }
 
-.dropdown-menu {
-    z-index: 2;
-    color: black;
+.dropdown-item:hover {
+    color: #ededed;
 }
 
-.dropdown-item {
-    color: #ededed;
+.resources-menu {
+    z-index: 1;
+    display: none;
+}
+
+.resources-link:hover .resources-menu {
+    display: block;
 }
 
 /* Homepage Start */
