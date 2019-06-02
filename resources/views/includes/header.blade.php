@@ -28,11 +28,11 @@
                 <li class="nav-item dropdown resources-link">
                     <a href="#" class="nav-link dropdown-toggle" id="resourcesDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
                     <div class="dropdown-menu bg-theme" aria-labelledby="articlesDropdown">
-                        <a class="dropdown-item" href="/resources/apologetics">Apologetics</a>
-                        <a class="dropdown-item" href="#">Doctrinal Matters</a>
-                        <a class="dropdown-item" href="#">Sermons</a>
-                        <a class="dropdown-item" href="#">Tracts</a>
-                        <a class="dropdown-item" href="#">World Religions</a>
+                        <a class="dropdown-item" href="/resources/Apologetics">Apologetics</a>
+                        <a class="dropdown-item" href="/resources/Doctrinal Matters">Doctrinal Matters</a>
+                        <a class="dropdown-item" href="/resources/Sermons">Sermons</a>
+                        <a class="dropdown-item" href="/resources/Tracts">Tracts</a>
+                        <a class="dropdown-item" href="/resources/World Religions">World Religions</a>
                     </div>
                 </li>
 
