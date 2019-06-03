@@ -14,16 +14,24 @@
     <div class="br"></div>
 
     <div class="left-bar-item">
-        <div class="latest-article">
-            <h3 class="sidebar-title">Latest Articles</h3>
-            <div class="media post_item">
-                <img class="img-fluid" src="{{ asset('aged.jpg')}}" width="100" height="60"/>
-                <div class="media-body ml-3">
-                    <a href="blog-details.html"><h3 style="font-size: 18px">Space The Final Frontier</h3></a>
-                <p>02 Hours ago</p>
-                </div>
+        @if (count($latest) < 1)
+            <p>No latest post</p>
+        @else
+            <div class="latest-article">
+                <h3 class="sidebar-title">Latest Posts</h3>
+                @foreach ($latest as $post)
+                        <div class="media post_item">
+                            <img class="img-fluid" src="{{ asset('storage\\' . $post->image) }}" width="100" height="60"/>
+                            <div class="media-body ml-3">
+                                <a href="{{'/resources/' . $post->category . '/'  . $post->id }}"><h3 style="font-size: 18px">{{$post->title}}</h3></a>
+                            <p>{{$post->created_at}}</p>
+                            </div>
+                        </div>
+                @endforeach
             </div>
-        </div>
+        @endif
+        
+        
     </div>
 
     <div class="left-bar-item">
