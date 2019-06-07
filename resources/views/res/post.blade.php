@@ -26,7 +26,7 @@
                         @endforeach
                 </div>
 
-                <div  class="col-lg-4 mt-2 p-5">
+                <div class="sidebar col-lg-4 mt-2 p-5">
                     <!--Right side bar-->
                     @include('includes.sidebar')
                 </div>

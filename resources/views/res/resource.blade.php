@@ -24,9 +24,12 @@
             
                                 <div class="col-md-7">
                                     <h4>{{ $post->title }}</h4>
-                                    <h6>{{ $post->author }} | {{ $post->created_at }}</h6>
+                                    <p class="text-muted"><i class="fas fa-user"></i> {{ $post->author}}  <i class="fas fa-calendar-alt"></i> {{ date('dS M Y', strtotime($post->created_at)) }}</h6>
                                     <p>
-                                            {{ strip_tags($post->body) }}
+                                            <?php
+                                                $stripped = strip_tags($post->body);
+                                                echo substr($stripped, 0, 150) . '...';
+                                            ?>
                                     </p>
                                     <a href="{{'/resources/' . $post->category . '/'  . $post->id }}" class="read-article btn bg-theme">Read Article</a>
                                 </div>
@@ -34,10 +37,14 @@
                         @endforeach  
                     @endif
                     
+                    <div>
+                        {{ $posts->links() }}
+                    </div>
+                    
                     
             </div>
 
-            <div  class="col-lg-4 mt-2 p-5">
+            <div class="sidebar col-lg-4 mt-2 p-5">
                 <!--Right side bar-->
                 @include('includes.sidebar')
             </div>

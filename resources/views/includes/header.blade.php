@@ -32,7 +32,7 @@
                         <a class="dropdown-item" href="/resources/Doctrinal Matters">Doctrinal Matters</a>
                         <a class="dropdown-item" href="/resources/Sermons">Sermons</a>
                         <a class="dropdown-item" href="/resources/Tracts">Tracts</a>
-                        <a class="dropdown-item" href="/resources/World Religions">World Religions</a>
+                        <a class="dropdown-item" href="/resources/World-Religions">World Religions</a>
                     </div>
                 </li>
 

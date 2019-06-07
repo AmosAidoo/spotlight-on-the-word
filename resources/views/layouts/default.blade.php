@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{ asset('assets/bootstrap/bootstrap.min.css') }}">
 
     <!--Fontawesome-->
-    <link rel="stylesheet" href="{{ asset('assets/fontawesome/all.min.css') }}">
+    <script src="https://kit.fontawesome.com/bb3f67b380.js"></script>
 
     <!--Owl Carousel-->
     <link rel="stylesheet" href="{{ asset('assets/owlcarousel/owl.carousel.min.css') }}">
