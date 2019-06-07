@@ -9,6 +9,10 @@
 
     <div class="left-bar-item">
         <h3 class="sidebar-title">Social Media</h3>
+        <a href="#" style="color:#3b5998"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="ml-4" style="color:#1da1f2"><i class="fab fa-twitter"></i></i></a>
+        <a href="#" class="ml-4" style="color:#25d366"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" class="ml-4" style="color:#FF0000"><i class="fab fa-youtube"></i></a>
     </div>
 
     <div class="br"></div>
