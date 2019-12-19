@@ -28,7 +28,7 @@
                             <img class="img-fluid" src="{{ asset('storage\\' . $post->image) }}" width="100" height="60"/>
                             <div class="media-body ml-3">
                                 <a href="{{'/resources/' . $post->category . '/'  . $post->id }}"><h3 style="font-size: 18px">{{$post->title}}</h3></a>
-                            <p>{{$post->created_at}}</p>
+                            <p>{{ date('dS M Y', strtotime($post->created_at)) }}</p>
                             </div>
                         </div>
                 @endforeach

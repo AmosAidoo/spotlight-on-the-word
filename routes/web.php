@@ -16,6 +16,12 @@ Route::get('/about', 'PagesController@about');
 Route::get('/contact', 'PagesController@contact');
 Route::get('/resources/{category}', 'ArticlesController@postsByCategory');
 Route::get('/resources/{category}/{id}', 'ArticlesController@showPost');
+Route::get('contact-us', 'ContactUsController@contactUs');
+Route::post('contact-us',[
+'as'=>'contactus.store',
+'uses'=>'ContactUsController@contactUsPost'
+]);
+
 
 
 Route::group(['prefix' => 'admin'], function () {

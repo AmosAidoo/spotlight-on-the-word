@@ -2,7 +2,7 @@
 
 @section('body')
     <!--Large Image-->
-    <div class="large-image w-100 mb-5" style="background-image: url({{ asset('bible2.jpg')}});">
+    <div class="large-image w-100 mb-5" style="background-image: url({{ asset('images/flier.jpg')}});">
         <div style="width:100%; height: 100%; background-color: rgba(20, 20, 20, 0.5)">
             {{-- <h1>That all may know the truth</h1> --}}
         </div>
@@ -15,7 +15,9 @@
             <div class="col-lg-8 mt-2">
                 <h3 class="p-2 pl-0 mb-4" style="border-left:solid 3px #111E6C">Upcoming Event</h3>
                 <div class=" mb-4">
-                    <img class="img-fluid" src="{{ asset('aged.jpg')}}" alt="#">
+                    @foreach ($upcomingEvent as $event)
+                        <img class="img-fluid" src="{{ asset('storage\\' . $event->image) }}" alt="Alt">
+                    @endforeach
                 </div>
                 
                 <h3 class="p-2 pl-0 mb-4" style="border-left:solid 3px #2866c9">Articles</h3>

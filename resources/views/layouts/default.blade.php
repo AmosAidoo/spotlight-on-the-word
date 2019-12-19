@@ -12,9 +12,8 @@
     <!--Fontawesome-->
     <script src="https://kit.fontawesome.com/bb3f67b380.js"></script>
 
-    <!--Owl Carousel-->
-    <link rel="stylesheet" href="{{ asset('assets/owlcarousel/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/owlcarousel/owl.theme.default.min.css') }}">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noticia+Text|Nunito&display=swap" rel="stylesheet">
 
     <!--Custom CSS-->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">

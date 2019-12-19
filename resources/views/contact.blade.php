@@ -39,8 +39,8 @@
             <div class="col-md-5">
                 <h3>Contact Details</h3>
 
-                <p>email@email.com</p>
-                <p>0553489228</p>
+                <p>spotlightcoc1@gmail.com</p>
+                <p>+233553979131 / +233501431889</p>
 
                 <a href="#" style="color:#3b5998"><i class="fab fa-facebook-f"></i></a>
                 <a href="#" class="ml-4" style="color:#1da1f2"><i class="fab fa-twitter"></i></i></a>

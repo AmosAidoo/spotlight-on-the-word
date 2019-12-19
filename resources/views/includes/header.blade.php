@@ -1,15 +1,19 @@
 <!--Header items-->
 <header>
     <!--Top Bar-->
-    <div class="p-3 text-center">
+    <div class="top-bar text-center">
         <div class="container">
-            <p class="ml-auto"><a href="#">SOTW LOGO</a></p>
+            {{-- <p class="ml-auto"> --}}
+                <a href="/"><img src="{{ asset('images/logo.png')}}" width="70" height="40" alt=""></a>
+            {{-- </p> --}}
         </div>
     </div>
 
     <!--Navigation Bar-->
-    <nav class="navbar navbar-expand-lg shadow-sm">
-        <a href="#" class="navbar-brand d-lg-none pl-2 pr-2">SOTW LOGO</a>
+    <nav class="navbar navbar-dark navbar-expand-lg shadow-sm">
+        <a href="/" class="navbar-brand d-lg-none pl-2 pr-2">
+            <img src="{{ asset('images/logo.png')}}" width="80" height="50" alt="">
+        </a>
 
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#menus">
             <span class="navbar-toggler-icon"></span>

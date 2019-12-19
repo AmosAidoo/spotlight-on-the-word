@@ -24,6 +24,9 @@ body {
 
 .top-bar {
     height: 70px;
+    padding: 30px;
+    padding-top: 10px;
+    /* padding-bottom: 0; */
 }
 
 /* .top-bar .container-fluid .row div {
@@ -58,8 +61,6 @@ body {
 .tag-link:hover .tag {
     background-color: #1d1c1c;
 }
-
-
 
 .left-bar-item .sidebar-title {
     padding: 10px;
@@ -107,7 +108,7 @@ body {
 
 .navbar {
     /* background-color: #2866c9; */
-    background-color: #111E6C;
+    background-color: rgb(102, 117, 201);
     padding: 0;
     position: sticky !important;
     top: 0;
@@ -210,7 +211,16 @@ footer {
 @media (max-width: 767.98px) { }
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { }
+@media (max-width: 991.98px) {
+    .top-bar {
+        height: 0;
+        padding: 0;
+    }
+
+    .top-bar > div {
+        display: none;
+    }
+}
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) { }

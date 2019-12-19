@@ -11,7 +11,12 @@ class PagesController extends Controller
                 ->latest()
                 ->take(3)
                 ->get();
-        return view('index', ['latest' => $latest]);
+                
+        $upcomingEvent = DB::table('upcoming_events')
+                ->latest()
+                ->take(1)
+                ->get();
+        return view('index', ['latest' => $latest, 'upcomingEvent' => $upcomingEvent]);
     }
 
     public function about(){
